@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>login success page</title>
+</head>
+<body>
+<h3>login success</h3>
+
+<a href="#" th:href="@{/logout}">logout</a><br/>
+<a href="#" th:href="@{/check/admin}">check role_admin</a><br/>
+<a href="#" th:href="@{/check/user}">check role_user</a><br/>
+<a href="#" th:href="@{/check/visitor}">check role_visitor</a><br/>
+
+<br/>
+<a href="#" th:href="@{/check/pvisit}">check permission_visit</a><br/>
+<a href="#" th:href="@{/check/pread}">check permission_read</a><br/>
+<a href="#" th:href="@{/check/pwrite}">check permission_write</a><br/>
+<a href="#" th:href="@{/check/pexecute}">check permission_exexute</a><br/>
+<a href="#" th:href="@{/check/porder}">check permission_order</a><br/>
+
+</body>
+</html>

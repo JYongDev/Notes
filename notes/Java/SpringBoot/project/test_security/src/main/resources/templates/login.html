@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>login page</title>
+</head>
+<body>
+<h3>login page</h3>
+<form action="#" th:action="@{/user/login}" method="post">
+    username:<input style="margin-left: 10px" type="text" name="username"/>
+    <br/>
+    <br/>
+    password:<input style="margin-left: 10px" type="password" name="password"/>
+    <br/>
+    <br/>
+    <input type="submit" name="submit" value="login"/>
+</form>
+</body>
+</html>
