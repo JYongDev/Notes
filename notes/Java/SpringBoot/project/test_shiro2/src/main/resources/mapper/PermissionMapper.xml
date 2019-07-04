@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.dao.PermissionMapper">
+
+    <select id="findPermissionByRole" resultType="Permission" parameterType="int">
+      SELECT
+        p.id,
+        p.name,
+        p.url,
+        u.pid,
+        u.rid
+        FROM
+        tb_permission p
+        RIGHT JOIN tb_role_permission_temp u ON u.pid = p.id
+         WHERE  u.rid = #{id}
+    </select>
+
+</mapper>
