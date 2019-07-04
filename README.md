@@ -1,4 +1,4 @@
- ## [Java](https://github.com/JYongDev/Notes/tree/master/notes/Java)
+ ## [Java](https://github.com/JYongDev/Notes/blob/master/notes/Java/java.md)
 
  ## [Android](#)
 
