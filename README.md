@@ -1,4 +1,4 @@
 # Java  
 <ul>
-  <li> idea maven create project https://blog.csdn.net/weixin_42222334/article/details/80362126</li>
+  <li>[SpringBoot](https://github.com/JYongDev/Notes/blob/master/notes/Java/SpringBoot/SpringBoot.md)</li>
 </ul>
