@@ -1,5 +1,5 @@
- ## [Java](https://github.com/JYongDev/Notes/blob/master/notes/Java/java.md)
+ ### [Java](https://github.com/JYongDev/Notes/blob/master/notes/Java/java.md)
 
- ## [Android](#)
+ ### [Android](https://github.com/JYongDev/Notes/blob/master/notes/Android/android.md)
 
 	
