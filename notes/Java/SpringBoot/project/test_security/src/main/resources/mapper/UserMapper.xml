@@ -19,4 +19,12 @@
         SELECT * FROM tb_user WHERE username = #{username}
     </select>
 
+
+    <insert id="addUser" parameterType="User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO tb_user
+        (username,psw,age,sex,email,phone)
+         VALUE
+         (#{username},#{password},#{age},#{sex},#{email},#{phone})
+    </insert>
+
 </mapper>

@@ -3,6 +3,7 @@ package com.example.demo.controller;
 import com.example.demo.bean.User;
 import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -53,8 +54,23 @@ public class UserController {
     }
 
     @PostMapping("/register")
-    public void register() {
+    public String register(@RequestParam("username") String username, @RequestParam("password") String password) {
+        if (StringUtils.isEmpty(username) ||
+                StringUtils.isEmpty(password)) {
+            return "redirect:/err";
+        }
 
+
+        User user = userService.selectByName(username);
+        if (user == null) {
+            User newUser = new User();
+            newUser.setUsername(username);
+            newUser.setPassword(new BCryptPasswordEncoder().encode(password));
+            userService.addUser(newUser);
+            return "redirect:/login";
+        } else {
+            return "redirect:/err";
+        }
     }
 
     @RequestMapping("/loginFail")

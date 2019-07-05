@@ -4,12 +4,12 @@ package com.example.demo.bean;
 public class User {
 
     private int id;
-    private String username;
-    private String password;
-    private String email;
-    private String phone;
-    private int sex;
-    private int age;
+    private String username = "";
+    private String password = "";
+    private String email = "";
+    private String phone = "";
+    private int sex = 2;
+    private int age = 0;
 
     public int getId() {
         return id;

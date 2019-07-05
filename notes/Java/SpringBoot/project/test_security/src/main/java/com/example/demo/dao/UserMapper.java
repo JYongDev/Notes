@@ -9,4 +9,6 @@ public interface UserMapper {
 
     User selectByName(String username);
 
+    void addUser(User user);
+
 }

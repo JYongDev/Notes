@@ -5,4 +5,6 @@ import com.example.demo.bean.User;
 
 public interface UserService {
     User selectByName(String username);
+
+    void addUser(User user);
 }

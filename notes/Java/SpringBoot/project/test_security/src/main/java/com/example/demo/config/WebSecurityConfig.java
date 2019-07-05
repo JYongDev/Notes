@@ -11,7 +11,7 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler;
 
 
@@ -35,17 +35,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(customUserDetailService).passwordEncoder(new PasswordEncoder() {
-            @Override
-            public String encode(CharSequence charSequence) {
-                return charSequence.toString();
-            }
-
-            @Override
-            public boolean matches(CharSequence charSequence, String s) {
-                return s.equals(charSequence.toString());
-            }
-        });
+        auth.userDetailsService(customUserDetailService)
+                .passwordEncoder(new BCryptPasswordEncoder());
     }
 
     @Override
@@ -101,7 +92,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                     httpServletRequest.getSession().invalidate();
                     httpServletResponse.sendRedirect("/index");
                 })
-                //设置退出后清楚session
+                //设置退出后清楚session,默认为true
 //                .invalidateHttpSession(true)
                 .permitAll()
 
