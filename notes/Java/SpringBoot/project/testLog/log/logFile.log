@@ -1,0 +1,47 @@
+15:56:10.502 [main] INFO  com.example.demo.DemoApplication:50- Starting DemoApplication on XS-20190311PPVU with PID 3244 (C:\Users\Administrator\Desktop\ManageBooks-master\testLog\target\classes started by Administrator in C:\Users\Administrator\Desktop\ManageBooks-master\testLog)
+15:56:10.504 [main] DEBUG com.example.demo.DemoApplication:53- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:56:10.506 [main] INFO  com.example.demo.DemoApplication:646- No active profile set, falling back to default profiles: default
+15:56:17.543 [main] INFO  com.example.demo.DemoApplication:59- Started DemoApplication in 9.482 seconds (JVM running for 11.051)
+15:57:21.844 [main] INFO  com.example.demo.DemoApplication:50- Starting DemoApplication on XS-20190311PPVU with PID 6476 (C:\Users\Administrator\Desktop\ManageBooks-master\testLog\target\classes started by Administrator in C:\Users\Administrator\Desktop\ManageBooks-master\testLog)
+15:57:21.846 [main] DEBUG com.example.demo.DemoApplication:53- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+15:57:21.850 [main] INFO  com.example.demo.DemoApplication:646- No active profile set, falling back to default profiles: default
+15:57:27.858 [main] INFO  com.example.demo.DemoApplication:59- Started DemoApplication in 7.765 seconds (JVM running for 9.02)
+16:15:20.550 [main] INFO  com.example.demo.DemoApplication:50- Starting DemoApplication on XS-20190311PPVU with PID 6240 (C:\Users\Administrator\Desktop\ManageBooks-master\testLog\target\classes started by Administrator in C:\Users\Administrator\Desktop\ManageBooks-master\testLog)
+16:15:20.551 [main] DEBUG com.example.demo.DemoApplication:53- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:15:20.553 [main] INFO  com.example.demo.DemoApplication:646- No active profile set, falling back to default profiles: default
+16:15:25.855 [main] INFO  com.example.demo.DemoApplication:59- Started DemoApplication in 7.266 seconds (JVM running for 8.272)
+16:20:58.245 [main] INFO  com.example.demo.DemoApplication:50- Starting DemoApplication on XS-20190311PPVU with PID 6512 (C:\Users\Administrator\Desktop\ManageBooks-master\testLog\target\classes started by Administrator in C:\Users\Administrator\Desktop\ManageBooks-master\testLog)
+16:20:58.251 [main] INFO  com.example.demo.DemoApplication:646- No active profile set, falling back to default profiles: default
+16:21:03.263 [main] INFO  com.example.demo.DemoApplication:59- Started DemoApplication in 7.116 seconds (JVM running for 8.652)
+16:22:20.372 [main] INFO  com.example.demo.DemoApplication:50- Starting DemoApplication on XS-20190311PPVU with PID 7052 (C:\Users\Administrator\Desktop\ManageBooks-master\testLog\target\classes started by Administrator in C:\Users\Administrator\Desktop\ManageBooks-master\testLog)
+16:22:20.374 [main] DEBUG com.example.demo.DemoApplication:53- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:22:20.383 [main] INFO  com.example.demo.DemoApplication:646- No active profile set, falling back to default profiles: default
+16:22:25.447 [main] INFO  com.example.demo.DemoApplication:59- Started DemoApplication in 6.751 seconds (JVM running for 8.035)
+16:23:17.931 [main] INFO  com.example.demo.DemoApplication:50- Starting DemoApplication on XS-20190311PPVU with PID 2564 (C:\Users\Administrator\Desktop\ManageBooks-master\testLog\target\classes started by Administrator in C:\Users\Administrator\Desktop\ManageBooks-master\testLog)
+16:23:17.932 [main] DEBUG com.example.demo.DemoApplication:53- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:23:17.936 [main] INFO  com.example.demo.DemoApplication:646- No active profile set, falling back to default profiles: default
+16:23:23.487 [main] INFO  com.example.demo.DemoApplication:59- Started DemoApplication in 7.106 seconds (JVM running for 8.305)
+16:23:28.418 [http-nio-8080-exec-8] INFO  c.e.demo.controller.LogController:25- str come from method 'trace' 
+16:23:39.259 [http-nio-8080-exec-5] INFO  c.e.demo.controller.LogController:25- str come from method 'trace' 
+16:35:06.541 [main] INFO  com.example.demo.DemoApplication:50- Starting DemoApplication on XS-20190311PPVU with PID 4632 (C:\Users\Administrator\Desktop\ManageBooks-master\testLog\target\classes started by Administrator in C:\Users\Administrator\Desktop\ManageBooks-master\testLog)
+16:35:06.551 [main] DEBUG com.example.demo.DemoApplication:53- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:35:06.553 [main] INFO  com.example.demo.DemoApplication:646- No active profile set, falling back to default profiles: default
+16:35:12.759 [main] INFO  com.example.demo.DemoApplication:59- Started DemoApplication in 8.621 seconds (JVM running for 10.503)
+16:35:23.113 [http-nio-8080-exec-4] INFO  c.e.demo.controller.LogController:25- str come from method 'trace' 
+16:35:23.114 [http-nio-8080-exec-4] ERROR c.e.demo.controller.LogController:27- str come from method 'trace' 
+16:35:23.115 [http-nio-8080-exec-4] WARN  c.e.demo.controller.LogController:28- str come from method 'trace' 
+16:35:23.116 [http-nio-8080-exec-4] DEBUG c.e.demo.controller.LogController:29- str come from method 'trace' 
+16:58:35.437 [main] INFO  com.example.demo.DemoApplication:50- Starting DemoApplication on XS-20190311PPVU with PID 6148 (C:\Users\Administrator\Desktop\ManageBooks-master\testLog\target\classes started by Administrator in C:\Users\Administrator\Desktop\ManageBooks-master\testLog)
+16:58:35.440 [main] INFO  com.example.demo.DemoApplication:646- No active profile set, falling back to default profiles: default
+16:58:42.250 [main] INFO  com.example.demo.DemoApplication:59- Started DemoApplication in 8.648 seconds (JVM running for 10.015)
+16:58:50.000 [http-nio-8080-exec-4] INFO  c.e.demo.controller.LogController:25- str come from method 'trace' 
+16:58:50.001 [http-nio-8080-exec-4] ERROR c.e.demo.controller.LogController:27- str come from method 'trace' 
+16:58:50.003 [http-nio-8080-exec-4] WARN  c.e.demo.controller.LogController:28- str come from method 'trace' 
+16:59:22.249 [main] INFO  com.example.demo.DemoApplication:50- Starting DemoApplication on XS-20190311PPVU with PID 6384 (C:\Users\Administrator\Desktop\ManageBooks-master\testLog\target\classes started by Administrator in C:\Users\Administrator\Desktop\ManageBooks-master\testLog)
+16:59:22.251 [main] DEBUG com.example.demo.DemoApplication:53- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+16:59:22.252 [main] INFO  com.example.demo.DemoApplication:646- No active profile set, falling back to default profiles: default
+16:59:27.998 [main] INFO  com.example.demo.DemoApplication:59- Started DemoApplication in 7.317 seconds (JVM running for 8.406)
+16:59:33.426 [http-nio-8080-exec-2] INFO  c.e.demo.controller.LogController:25- str come from method 'trace' 
+16:59:33.427 [http-nio-8080-exec-2] ERROR c.e.demo.controller.LogController:27- str come from method 'trace' 
+16:59:33.493 [http-nio-8080-exec-2] WARN  c.e.demo.controller.LogController:28- str come from method 'trace' 
+16:59:33.494 [http-nio-8080-exec-2] DEBUG c.e.demo.controller.LogController:29- str come from method 'trace' 
