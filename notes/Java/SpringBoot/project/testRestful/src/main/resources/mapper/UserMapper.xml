@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.dao.UserMapper">
+
+
+    <resultMap id="accountMap" type="Account">
+        <id column="id" property="id"/>
+        <result column="account" property="username"/>
+        <result column="psw" property="password"/>
+        <result column="sex" property="sex"/>
+        <result column="age" property="age"/>
+        <result column="email" property="email"/>
+        <result column="phone" property="phone"/>
+    </resultMap>
+
+    <select id="selectAll" resultMap="accountMap">
+        SELECT * FROM tb_account
+    </select>
+
+    <select id="query" parameterType="int" resultMap="accountMap">
+        SELECT * FROM tb_account WHERE id = #{id}
+    </select>
+
+    <update id="update" parameterType="Account">
+        UPDATE
+        tb_account
+        SET
+        psw=#{password}
+        WHERE
+        id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="int">
+        DELETE FROM tb_account WHERE id = #{id}
+    </delete>
+
+    <insert id="add" parameterType="Account">
+        INSERT INTO
+        tb_account
+        (account,psw,age,sex,phone,email)
+        VALUES
+        (#{username},#{password},#{age},#{sex},#{phone},#{email})
+    </insert>
+
+</mapper>
