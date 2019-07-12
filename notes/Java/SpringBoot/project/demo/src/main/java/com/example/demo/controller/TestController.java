@@ -21,6 +21,8 @@ public class TestController {
 
     @PostMapping("/login")
     @ResponseBody
+    // 指定了验证哪些分组，就验证哪些分组
+//    @Validated(value = {Group.Insert.class,Group.Update.class})
     public Object login(@Valid User user) {
         Response<User> response = new Response<>();
         response.setCode(200);
