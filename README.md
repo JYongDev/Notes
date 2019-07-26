@@ -4,6 +4,7 @@
 * [Spring Boot使用Logback日志](https://github.com/JYongDev/Notes/tree/master/notes/Java/SpringBoot/project/testLog)
 * [Spring Boot开发RESTful APIs](https://github.com/JYongDev/Notes/tree/master/notes/Java/SpringBoot/project/testRestful)
 * [Spring Boot数据检验](https://github.com/JYongDev/Notes/tree/master/notes/Java/SpringBoot/project/demo)
+* [Spring Boot整合Redis](https://github.com/JYongDev/Notes/tree/master/notes/Java/SpringBoot/project/testRedis)
  ## Android
 
 
